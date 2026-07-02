@@ -1,0 +1,68 @@
+/* Style the whole page */
+body {
+    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif; /* Simple readable font */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full screen height */
+    margin: 0; /* Remove default spacing */
+}
+.featured-image {
+    width: 50%; /* Full width */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 300px; /* Space below image */
+}
+
+/* Form container */
+.container {
+    background-color: rgb(158, 112, 112); /* White form background */
+    padding: 30px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    width: 350px; /* Set box width */
+    text-align: center; /* Center all text */
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Main heading */
+h1 {
+    color: #471869; /* Purple heading color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Description text */
+p {
+    color: #555; /* Dark gray text */
+    font-size: 16px; /* Medium text size */
+    line-height: 1.5; /* Improve readability */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+/* Email input field */
+input[type="email"] {
+    width: 100%; /* Full width */
+    padding: 22px; /* Space inside input */
+    margin-bottom: 35px; /* Space below input */
+    border: 5px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 16px; /* Text size */
+}
+
+/* Submit button */
+button {
+    width: 100%; /* Full width */
+    padding: 12px; /* Space inside button */
+    background-color: #471869; /* Purple button color */
+    color: white; /* White button text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #5b2487; /* Slightly lighter purple */
+}
