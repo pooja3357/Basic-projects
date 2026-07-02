@@ -10,9 +10,9 @@ body {
 }
 .featured-image {
     width: 50%; /* Full width */
-    height: 300px; /* Maintain aspect ratio */
+    height: 150px; /* Maintain aspect ratio */
     border-radius: 20px; /* Rounded corners */
-    margin-bottom: 300px; /* Space below image */
+    margin-bottom: 150px; /* Space below image */
 }
 
 /* Form container */
